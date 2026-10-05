@@ -11,15 +11,15 @@ You can complete this task on the worksheet pdf if you prefer.
 |     Command                 |     Explanation    |
 |-----------------------------|--------------------|
 |     pwd                     | shows the current location of the terminal |
-|     ls                      | |
-|     cd directory_name       | |
-|     cd ..                   | |
-|     cd -                    | |
-|     mkdir directory_name    | |
-|     touch filename          | |
-|     git status              | |
-|     git add -A              | |
-|     git commit -m ""        | |
-|     git push                | |
-|     git pull                | |
+|     ls                      | Lists everything in the current directory
+|     cd directory_name       | Moves into a specific directory, based on the name
+|     cd ..                   | Moves up by one directory level
+|     cd -                    | Switches your working directory to the previous directory you were in
+|     mkdir directory_name    | Makes a new directory
+|     touch filename          | Makes a new empty file 
+|     git status              | Provides a snapshot of the repository's status
+|     git add -A              | Saves your changes, specifically all
+|     git commit -m ""        | Bundles changed into one commit, a way of creating a save point
+|     git push                | Sends changed back to the remote GitHub server
+|     git pull                | Fetches changes from a remote repository and integrates them into your current local branch
 
