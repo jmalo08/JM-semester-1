@@ -10,7 +10,7 @@ You can complete this task on the worksheet pdf if you prefer.
 
 |     Command                 |     Explanation    |
 |-----------------------------|--------------------|
-|     pwd                     | shows the current location of the terminal |
+|     pwd                     | Shows the current location of the terminal
 |     ls                      | Lists everything in the current directory
 |     cd directory_name       | Moves into a specific directory, based on the name
 |     cd ..                   | Moves up by one directory level
@@ -18,7 +18,7 @@ You can complete this task on the worksheet pdf if you prefer.
 |     mkdir directory_name    | Makes a new directory
 |     touch filename          | Makes a new empty file 
 |     git status              | Provides a snapshot of the repository's status
-|     git add -A              | Saves your changes, specifically all
+|     git add -A              | Stages your changes, specifically all
 |     git commit -m ""        | Bundles changed into one commit, a way of creating a save point
 |     git push                | Sends changed back to the remote GitHub server
 |     git pull                | Fetches changes from a remote repository and integrates them into your current local branch
