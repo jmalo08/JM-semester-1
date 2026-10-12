@@ -3,6 +3,8 @@
 i = 0
 
 while i < 20:
+    if i % 3 == 0:
+        continue
     i = i + 1
     print(i)
 
