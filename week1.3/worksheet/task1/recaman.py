@@ -1,10 +1,24 @@
 # Worksheet 1.3: Task 1
 
 L = int(input("Length of sequence: ")) # this should be your only input
-
-
+sequence = [0]
+k = 1
 # Your code for the Recaman Sequence
+for x in range (k, L):
+    k = k + 1
+    next = sequence[-1] - k
+    
+
+
+    
+
+    
+
+
+    
+
 # You should store the sequence in an appropriate data structure named 'sequence'
+
 
 
 # You may wish to use further output for testing purposes while you develop your code

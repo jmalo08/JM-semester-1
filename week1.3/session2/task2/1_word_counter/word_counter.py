@@ -2,6 +2,11 @@
 
 # We want to read in a text file, and calculate how many words are in it. 
 # You can use any of the .txt files to test this - or even make your own.
+with open("story.txt", "r") as infile:
+    data = infile.read()
+    numwords = data.split()
+    print(len(numwords))
+        
 
 # open and read the file
 

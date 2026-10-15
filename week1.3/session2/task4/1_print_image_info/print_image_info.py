@@ -1,6 +1,8 @@
 # Week 1.3, Session 2: Print PGM image info
 
 # Open a pgm image file
+with open ("images/feed.pgm", "r") as image:
+    image_data = image.read()
 # You can use the relative path ../images/filename
 # You could handle file errors with try/except.
 
