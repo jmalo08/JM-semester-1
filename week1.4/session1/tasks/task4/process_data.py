@@ -3,6 +3,7 @@
 # You are given function process_data with docstring. 
 # Is the function returning the correct value corresponding to the docstring? 
 # Which line of code contains the inconsistency?
+ # "return 0"
 
 # Your task is to identify the incorrect line of code and
 # update the code to produce the correct output.
@@ -20,7 +21,7 @@ def process_data(data):
         int: The sum of all integers in the list or None if empty.
     """
     if not data:
-        return 0
+        return ("None")
     return sum(data)
 
 # What is output from the following line of code?
