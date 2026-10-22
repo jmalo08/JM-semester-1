@@ -15,7 +15,13 @@ def countdown(n):
     """
 
     # Complete your code here
+    print(n)
+    n = n - 1
     # base case
+    if n == 0:
+        return None
+    else:
+        countdown(n)
 
     # recursive case
 

@@ -16,6 +16,9 @@ def odd_even(lstIntegers):
     Returns:
         list: A list containing [odd_count, even_count].
     """
+    odd_numbers = [item for item in lstIntegers if item % 2 == 1]
+    even_numbers = [item for item in lstIntegers if item % 2 == 0]
+    return (len(odd_numbers), len(even_numbers))
 
     # Complete your code here
 

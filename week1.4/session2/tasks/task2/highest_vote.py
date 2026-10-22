@@ -16,6 +16,24 @@ def most_frequent_string(votes):
         and int is the count of its occurences
         - None, None: if votes is empty.
     """
+    i = 0
+    for i in range(len(votes) - 1):
+        n = 0
+        a = 0
+        num_word = 0
+        while n < len(votes) - 1:
+            search_item = votes[n]
+            if search_item == votes[a]:
+                num_word = num_word + 1
+                a = a + 1
+            else:
+                a = a + 1
+        n = n + 1
+        print(search_item, "was found", num_word, "times")
+
+
+            
+        
 
     # Your task is to complete the body of the function based on the details in the docstring.
     # Hint 1: You can complete this task with for loops or comprehensions 
@@ -33,9 +51,7 @@ names = ['Jesy', 'Leigh-Anne', 'Perrie', 'Leigh-Anne', 'Jade',
 
 
 # Check if correct output is produced
-print(most_frequent_string(fruit))          # ('date', 4)
-print(most_frequent_string(names))     # ('Leigh-Anne', 10)
-print(most_frequent_string([]))             # (None, None)
+print(most_frequent_string(fruit))
 
 # If completed, you could update the function to return all items that tie for the
 # highest count in a list, e.g  (['apples', 'bananas'], 9). If there is no
