@@ -63,17 +63,17 @@ class Circle (Shape):
         Returns the area of the circle, using a value of pi to 10 s.f.
         """
         area = (self.radius * self.radius) * 3.141592654
-        return area
+        return print(round(area, 2))
     def perimeter(self):
         """
         Returns the perimeter of the circle, using a value of pi to 10 s.f.
         """
         perimeter = (self.radius * 2) * 3.141592654
-        return perimeter
+        return round(perimeter, 2)
     def __str__(self):
         return (self.colour,"circle", "radius", self.radius, "at", self.position)
 q = Circle(1.5, Point(1, 2), "green")
-q.area()
+print(q.area())
     
 
 
