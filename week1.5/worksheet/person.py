@@ -17,7 +17,7 @@ class Person:
             raise ValueError
         if isinstance(name, str) == False:
             raise TypeError
-        if isinstance(birth, str) == False:
+        if isinstance(birth, date) == False:
             raise TypeError
         self.name = name
         self.birth = birth
@@ -27,23 +27,17 @@ class Person:
         """
         Returns the initials of a name
         """
-        name_list = self.name.split()
-        first_name = name_list[0]
-        surname = name_list[1]
-        initials = first_name[0]
-        initials = initials + surname[0]
+        initials = ""
+        for words in self.name.split():
+            initials = initials + words[0]
         return initials.upper()
 
     def is_birthday(self):
           """
           Validates if the users birthday is today
           """
-          date = date.today()
-          date = date[5:9]
-          if date == self.birth[0:]
-
-p = Person("James Malone", "26-052008")
-            
+          today = date.today()
+          return today.month == self.birth.month and today.day == self.birth.day
                       
 
                 

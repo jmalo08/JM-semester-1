@@ -10,19 +10,28 @@
 from process_data import process_data
 
 
-def test_empty_list():
+def test_empty_list(data):
     # complete the implementation for
     # testing an empty list
+    assert process_data(data) == None
     
-    
-def test_one_int_list():
+def test_one_int_list(data):
     # complete the implementation for 
     # testing a list with a single integer
+    assert process_data(data) == -5
 
 
-def test_multiple_int_list():
+def test_multiple_int_list(data):
     # complete the implementation for
     # testing a list with multiple integers
+    assert process_data(data) == -2
+
+empty_list = []
+one_item_list = [-5]
+multiple_item_list = [-5, 3]
+test_empty_list(empty_list)
+test_one_int_list(one_item_list)
+test_multiple_int_list(multiple_item_list)
 
     
     
