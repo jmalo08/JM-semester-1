@@ -2,7 +2,6 @@
 
 import sys
 
-
 class MarkError(Exception):
     """
     Exception raised if an exam mark is not valid.
